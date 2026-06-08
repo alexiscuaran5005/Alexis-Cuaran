@@ -1,0 +1,128 @@
+/* Estilos generales del sitio */
+body{
+font-family:'Poppins',sans-serif;
+margin:0;
+color:#1B263B;
+}
+
+header{
+background:#1B263B;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+}
+
+nav ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+nav a{
+color:#FFFFFF;
+text-decoration:none;
+}
+
+.hero{
+background:#FFFFFF;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:100px 10%;
+}
+
+.hero img{
+border-radius:50%;
+}
+
+.btn{
+background:#778DA9;
+color:white;
+padding:12px 24px;
+border-radius:8px;
+text-decoration:none;
+}
+
+.proyectos{
+background:#E0E1DD;
+padding:80px 10%;
+}
+
+.grid-proyectos{
+display:flex;
+gap: 20px;
+}
+
+.card{
+background:white;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 4px 10px rgba(0,0,0,.1);;
+padding:10px;
+}
+
+.habilidades{
+background:#FFFFFF;
+padding:80px 10%;
+}
+
+.grid-habilidades{
+display:flex;
+gap:20px;
+}
+
+.skill{
+background:#415A77;
+color:white;
+padding:20px;
+flex:1;
+text-align:center;
+border-radius:10px;
+}
+
+.contacto{
+background:#E0E1DD;
+display:flex;
+gap:40px;
+padding:80px 10%;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+flex:1;
+}
+
+input,textarea{
+padding:12px;
+border:1px solid #ccc;
+border-radius:8px;
+}
+
+button{
+background:#778DA9;
+color:white;
+border:none;
+padding:12px;
+border-radius:8px;
+cursor:pointer;
+}
+
+footer{
+background:#1B263B;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+.social{
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+.social a,.btn:hover,button:hover{
+opacity:.85;
+}
